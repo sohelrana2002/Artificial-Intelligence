@@ -12,6 +12,7 @@ heuristic = {
     "F": 6, "G": 3, "H": 0, "I": 4, "J": 5
 }
 
+# estimated cost to reach goal (H)
 def best_first_search(start, goal):
     queue = [(start, 0, heuristic[start])]  # (node, cost_so_far, heuristic)
     visited = set()
