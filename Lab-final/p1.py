@@ -1,3 +1,5 @@
+# find potimal solution using UCS algorithm
+
 graph = {
     "A": [("B", 3), ("C", 5), ("D", 2)],
     "B": [("E", 4), ("F", 6)],

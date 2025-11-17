@@ -1,3 +1,5 @@
+# find solution using single layer perceptron
+
 import numpy as np
 
 dataset = 5
